@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-hostname",
+  "private": true,
+  "version": "0.0.1",
+  "start": "app.js",
+  "description": "Node.js returns the local hostname in a web request",
+  "author": "Alex Rubin <rubin1@us.ibm.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "express": "3.2.4",
+    "sleep": "^5.1.1"
+  }
+}

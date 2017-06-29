@@ -1,0 +1,8 @@
+---
+applications:
+- name:    dump-hostname
+  host:    dump-hostname
+  memory:  128M
+  env:
+     BLUEMIX_ENVOY_INSTALL: true
+     RUNNING: env-3
